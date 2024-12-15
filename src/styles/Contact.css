@@ -1,0 +1,81 @@
+/* Contact Section */
+.contact-container {
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4caf50;;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .back-button2 {
+    margin-bottom: 1rem;
+  }
+  
+  .back-link2 {
+ 
+    color: #7c7c7c;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .back-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .back-link2:hover {
+    color: #56e049;
+  }
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .contact-icon {
+    font-size: 1.8rem;
+    color: #4caf50;;
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .contact-link:hover {
+    color: #4caf50;;
+    text-decoration: underline;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
